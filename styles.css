@@ -1,0 +1,42 @@
+/* Write CSS Here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(207, 204, 204);
+    display: flex;
+    justify-content: center;
+}
+.full {
+    width: 80%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: initial;
+    background-color: rgb(128, 128, 128);
+    padding: 30px;
+  
+}
+.right {
+    position: initial;
+    background-color: rgb(109, 103, 103);
+    padding: 30px;
+  
+}
+.image, .Contact, .Skills, .Language, .title, 
+.Summary, .Experience, .Education, .project {
+    margin-bottom: 30px;
+}
+.h3 {
+    background-color: rgb(4, 96, 150);
+}
+table, th, td {
+    border: 1px solid;
+  }
